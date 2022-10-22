@@ -1,0 +1,280 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    font-size: small;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bolder;
+    margin-top: -10px;
+    margin-right: -10px;
+    margin-left: -10px;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.nav a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+    color: black;
+}
+
+.nav li{
+    display: inline;
+    color: inherit;
+}
+
+.atf{
+    height: 650px;
+    background-image: url(../images/atf-image.jpg);
+    background-position: center;
+    margin-bottom: 5%;
+    margin-top: -70px;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+
+.atf-text{
+    width: 30%;
+    position: relative;
+    top: 10%;
+    left: 7.5%;
+}
+
+.atf-text p{
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.atf-text h2{
+    text-transform: uppercase;
+    font-size: 75px;
+    line-height: 75px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.atf-text a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    padding: 15px 20px;
+    background-color: #312a26;
+    text-decoration: none;
+    color: white;
+}
+
+.atf-text span{
+    color: green;
+}
+
+.picture1{
+    background-image: url(../images/merchandise1.jpg);
+    width: 47%;
+    float: left;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 2em;
+}
+
+.picture-text1{
+    margin-left: 10%;
+    margin-top: 15%;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.picture-text1 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: inherit;
+    top: 10px;
+}
+
+.picture2{
+    background-image: url(../images/merchandise2.jpg);
+    width: 48%;
+    float: right;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 2em;
+}
+
+.picture-text2{
+    margin-left: 10%;
+    margin-top: 15%;
+    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: white;
+}
+
+.picture-text2 a{
+    text-decoration: none;
+    font-size: 12px;
+    color: inherit;
+    top: 10px;
+}
+
+.products p{
+    color: #B67233;
+    margin-top: -1em;
+}
+
+.column{
+    float: left;
+    margin-left: 2em;
+}
+
+.column2{
+    float: left;
+    margin-left: 2em;
+}
+
+.column3{
+    float: left;
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+.column4{
+    display: inline-block;
+}
+
+hr{
+    margin-top: -1em;
+}
+
+.whathappens p{
+    color: #B67233;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.whathappens h2{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: -0.5em;
+}
+
+.picture3{
+    background-image: url(../images/banner.jpg);
+    width: 90%;
+    margin:auto;
+    background-position: top;
+    height: 300px;
+}
+
+.picture-text3{
+    text-align: center;
+    padding-top: 90px;
+}
+
+.picture-text3 h2{
+    color: white;
+    margin-top: -0.5em;
+}
+
+.picture-text3 a{
+    padding: 15px 20px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 30%;
+}
+
+.whathappens2 p{
+    color: #B67233;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.whathappens2 h2{
+    text-align: center;
+    font-weight: bolder;
+    margin-top: -0.5em;
+}
+
+.pic p{
+    color: #B67233;
+    margin-top: -1em;
+}
+
+.pic1{
+    float: left;
+    margin-left: 2em;
+}
+
+.pic2{
+    float: left;
+    margin-left: 2em;
+}
+
+.pic3{
+    float: left;
+    margin-left: 2em;
+}
+
+.pic4{
+    float: left;
+    margin-left: 2em;
+}
+
+.merchandises a{
+    background-color: #312a26;
+    text-decoration: none;
+    color: white;
+    padding: 15px 20px;
+    margin-left: 65px;
+}
+
+.merchandise1{
+    background-image: url(../images/merchandise3.jpg);
+    width: 47%;
+    float: left;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.merchandise2{
+    background-image: url(../images/merchandise4.jpg);
+    width: 47%;
+    float: right;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.merchandise3{
+    background-image: url(../images/merchandise5.jpg);
+    width: 47%;
+    float: left;
+    background-size: cover;
+    height: 350px;
+    background-position: center;
+    background-color: #312a26;
+    position: relative;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.m
